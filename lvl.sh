@@ -27,9 +27,9 @@ HOME_ZIP="${HOME}/.q3a/zip"
 
 # Set the defaults
 # === Editing may be required ===
-WIDTH="1280"
-HEIGHT="1024"
-R_FULLSCREEN="0"
+WIDTH="1920"
+HEIGHT="1080"
+R_FULLSCREEN="1"
 R_MODE="-1"
 R_PICMAP="0"
 R_SUBDIVISIONS="4"
@@ -44,7 +44,7 @@ MOD=""
 # =============================================================
 
 # A version number using yyyymmdd format
-VERSION="20250920"
+VERSION="20250921"
 # Use -D to set to DEBUG mode
 DEBUG=""
 
