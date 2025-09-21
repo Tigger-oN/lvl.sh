@@ -80,10 +80,10 @@ then the script will exit.
     lvl.sh -ifs 1920x1080 -M cpma -m q3dm13 -z cpm1a hub3aeroq3a
 
 Using a wildcard (\*) with "-z" (lower case "z") will extract all the
-matching files so long as the wildcard is escaped with a "\". This
-example will extract all zip files that start with "tig_".
+matching files so long as the wildcard is escaped with a "\\". The
+example below will extract all zip files that start with "tig_".
 
-    lvl.sh -z tig_\\*
+    lvl.sh -z tig_\*
 
 Wildcard PK3 extraction with "-Z" (upper case) is a little different
 and easier to type. This example will search for zip files that
