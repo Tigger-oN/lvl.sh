@@ -22,7 +22,7 @@ Screen options:
     -f     : Full screen mode.
     -w     : Window screen mode.
     -s WxH : Use a screen size width of "W" and height of "H".
-    -r N   : Change r_mode from -1 to "N".
+    -r N   : Set r_mode to "N".
 
 Mod support. Can be combined with other options.
 

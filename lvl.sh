@@ -44,7 +44,7 @@ MOD=""
 # =============================================================
 
 # A version number using yyyymmdd format
-VERSION="20250921"
+VERSION="20250922"
 # Use -D to set to DEBUG mode
 DEBUG=""
 
@@ -205,7 +205,7 @@ variableCheck () {
 		issue="${issue}
  - HOME_Q3A is valid, but does not contain a \"baseq3\" directory."
 	fi
-	if [ -n "${HOME_Q3A}" -a ! -d "${HOME_DEV}" ]
+	if [ -n "${HOME_DEV}" -a ! -d "${HOME_DEV}" ]
 	then
 		issue="${issue}
  - HOME_DEV set to invalid directory \"${HOME_DEV}\"
