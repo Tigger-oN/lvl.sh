@@ -7,7 +7,7 @@ Also extracts PK3s from zip files or cleans up your baseq3 directory.
 Usage:
 
     lvl.sh [map]
-    lvl.sh [-dDqiefw] [-r N] [-s WxH] [-M mod] [map]
+    lvl.sh [-dDqiefSw] [-s WxH] [-M mod] [map]
     lvl.sh [-m map] [-zZ zip...]
     lvl.sh -c | -h | -v
 
@@ -22,7 +22,6 @@ Screen options:
     -f     : Full screen mode.
     -w     : Window screen mode.
     -s WxH : Use a screen size width of "W" and height of "H".
-    -r N   : Set r_mode to "N".
 
 Mod support. Can be combined with other options.
 
@@ -48,6 +47,7 @@ Misc:
     -d : (For developers) Use a developer directory instead.
     -D : Debug mode. Do not run the commands, show them.
     -h : Show this help and exit. Other options will be ignored.
+    -S : (Upper case S) Run the setup process to set variables.
     -v : Show a summary of options and the script version.
 
 Examples:
